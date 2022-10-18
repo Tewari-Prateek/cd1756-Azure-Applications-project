@@ -8,7 +8,7 @@ class Config(object):
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'udacity1234'
     BLOB_STORAGE_KEY = os.environ.get(
-        'BLOB_STORAGE_KEY') or 'BA2PDuJcja+ksnxAjMRq1SAdqOqpS6ndmuBm58BACiCvO8guFdFusk0wL8ievO1kVrFWldbLD/an+AStUb1qKA=='
+        'BLOB_STORAGE_KEY') or 'JLu+MG14lMbqmg04AsKARcl5XyQtmAWlXY3hbIntUImgKRozP8T+AAShzD227Uy01AcSSJNfLX0l+AStXQKMQw=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get(
